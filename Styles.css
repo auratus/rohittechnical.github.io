@@ -1,0 +1,616 @@
+/*###"external style sheet"
+
+the below is the syntax for css styling using 'external style sheet'
+h1{
+	below are the properties for 'style' attribute
+	color: indigo; this is used for changing colour
+	text-align: center;  this is used for changing alignment
+}
+the reference which we have given in our html file will direct the system to this css file and whatever styling properties we have mentioned will effect our data on our web page*/
+
+
+/*2.)Class and Id
+
+Styling code with syntax for class attribute
+
+.myclass{
+
+	color: maroon;
+	text-align: center;
+}
+
+Styling code with syntax for Id attribute
+
+#myid{
+
+	color: orange;
+	text-align: center;
+}*/
+
+
+/*3.)Background in css
+
+The below syntax is used for deleting margin and padding from our web page.
+*{
+	margin: 0;
+	padding: 0;
+}
+
+syntax for using css background properties.
+.backimage{
+           width: 100%; makes our background color/image "width" maximum i.e., it makes the width of background image/color equals to the width of our web page.
+           height: 100vh; makes our background color/image "height" maximum i.e., it makes the height of background image equals to the height of our web page.
+	background-image: url('photu.jpeg'); this property is used to apply any image in background of any "element",this means we can add any image to the background of any text/link/form etc and adjust its size by using the below "background-size" property.
+	background-size: 100% 100%; this property adjust the size of the background of any element,it is imp to note that it only adjust the background image of that particular element but not the bachground of whole web page,hence "width" and "height" must be used along with this property
+	background-repeat: no-repeat;
+	In short if we are using the same image in our web page background and in our specific element so we have to use both the properties.
+}
+
+h1{
+	color: black;
+	text-align: center;
+}*/
+
+/*4.)Parallax website in html css
+*/
+
+
+/**{
+	margin: 0;
+	padding: 0;
+}
+.parawax{
+
+	width: 100%;
+	height: 100vh;
+	background-image: url('background3.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;this property is used to control the scrolling of background image.using "fixed" in "background-attachment" makes the background image fixed and text roll over the image.
+}
+
+
+.paramax{
+
+	width: 100%;
+	height: 100vh;
+	background-image: url('photu.jpeg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}*/
+
+
+/*5.) Fonts in css*/
+
+/*.myfonts{
+	font-family: 'Hanalei', cursive; this is used to change the font of any text,choose the fonts from "google fonts" copy the css property from there and paste here. 
+	font-size: 100px;this property is used to change the size of text.
+	font-variant: small-caps;this property kept the first letter as it is and decrease the size of remaining letters in a particular element. 
+	font-weight: bold; it used to adjust the border size of fonts.
+	font-style: italic;used to make the fonts look italic.
+}*/
+
+
+/*6.)Texts in css
+
+.mytext{
+	font-family: 'Hanalei', cursive;copied from google fonts.
+	font-size: 15px; used to adjust font size aqs discussed earlier.
+	direction: rtl; text will start from right end and end at left end
+	color: red; makes the text color red
+	letter-spacing: 5px; will make "5pixels" spacing between two letters/alphabets.
+    word-spacing: 10px; will make spacing between two words
+    text-indent: 10px;leave "10pixels" space before the starting of any paragraph/text.
+    text-align: center;it paste our text exactly at center.
+    text-transform: uppercase;it will make all the letters capital.similarly for making letters small we can use "text-transform:lowercase"
+    text-transform: capitalize;it makes the first letter of every word capital 
+}
+*/
+
+/*7.)Link styling in css
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.mylinks
+{
+	width: 100%;
+	height: 100vh;
+	font-family: 'Dancing Script', cursive;
+	background-image: url('image1.jpeg');
+	background-size: 100% 100%;
+}
+
+We can style our link under 4 parameters;
+1."link"-we can change the styling when the link is untouched.
+2."hover"- If we want our link to change its styling when we hover on it then by using this we can do.
+3."active"-If we want our link to change its styling when we click and hold that link then we can do by using this.
+4."visited"-If we want our link to change its styling when we have visited that link so we can do so using this. 
+
+ syntax with property; 
+
+
+
+a:link{
+	background-color: #b1c5c9; 
+
+}
+
+a:visited{
+	color: #d6b8bc;
+	background-color: #b5bd64;
+}
+
+a:hover{
+	color: #9fbf99;
+	background-color: #d5d9b6;
+}
+a:active{
+	color: #a69677;
+	background-color: #2d2533;
+}
+
+Most imp note-Always follow the sequence "Link->Visited->Hover->Active" otherwise code will not execute.*/
+
+
+/*8.)Borders in css
+
+Most imp note-To align image/box(border) always use "margin-left/right/auto:value",text align is only used to align text.
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-size: 100px;
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+}
+
+h3{
+	font-size: 35px;
+}
+
+.fonts{
+	font-family: 'Dancing Script', cursive;
+}
+
+.borders{
+
+	width: 500px;used to adjust width of box
+	height: 250px;used to adjust height of box
+	border-style: solid; used for type of border we want
+	border-width: 5px;used to adjust width of border
+	border-radius: 15px;used to make border rounded
+	margin-left: 500px;it left 500px and then make a box i.e., used to align the box and its contents
+	text-align: center;used to align content under the box
+	border-width: 5px 10px 15px 20px; used to adjust border size for every edge of the box
+	border-color: red green blue yellow;used to color every edge of the box
+
+}*/
+
+
+/*9.)box inserting to left/right of any text.
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.mybox{
+	font-family: 'Dancing Script', cursive;
+}
+p{
+	font-size: 15px;
+	border-left: 500px solid red;used to insert box to the left of text.Width of the box is 500px,border is solid and box color will be red.
+	border-right: 400px solid olive;
+	padding: 2px 3px 4px 5px;used for padding around text.2px padded from top,3px from right,4px from bottom and 5px from left.
+	
+}*/
+
+
+
+/*10.)Box model in css
+
+.boxmodel{
+font-family: 'Dancing Script', cursive;
+width: 500px;
+height: 300px;
+background-color: olive;
+margin-top: 50px;we are writing margin under box hence it makes 50px space between screen and box from top because box's margin will be somewhere outside the box border.
+margin-left: 500px;it makes 500pc space between our screen and box from left
+padding: 20px;here we are writing padding under box hence it will make 20px space between box content and box border from each side.
+
+}
+
+input{
+
+	padding-left: 10px;left 10px space from left between input text and input box.  
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 15px;left 15px space from left between input box and our main box.
+	margin-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+
+
+}*/
+
+
+/*11.)Overflow
+
+
+From the below code we can see that the text in our box overflowing and hence we will use "overflow" property in div.
+body{
+	background-image: url('tech3.jpg');
+	font-family: 'Dancing Script', cursive;
+	background-size: 100% 100%;
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	color: #b55b0d;
+}
+
+div{
+	width: 500px;
+	height: 300px;
+	background-image: url('tech.jpg');
+	border-style: dotted;
+	padding: 15px;
+	margin-top: 70px;
+	margin-left: 700px;
+	overflow: hidden;Used to hide content outside the box.It has practically no significance bcz why one would write the content if he wants it to hide.
+	overflow: auto;it insert vertical scroll bar,stop overflowing and made text readable
+	overflow: scroll;only diff b/t auto and scroll is that in scroll horizontal scroll appears.
+}
+
+p{
+	font-size: 30px;
+	color:#cca495;
+}*/
+
+
+
+/*12.)Positioning
+
+body{
+	font-family: 'Dancing Script', cursive;
+}
+
+.indiancitizen{
+	width: 500px;
+	height: 250px;
+	margin-top: 50px;
+	margin-left: 400px;
+	background-color: #91905a;
+	position: relative;apply this in parent block,it is compulsory.Now wherever you apply "position:absolute" that child will change its position with respect to this parent.
+}
+
+.citizen1{
+	width: 70px;
+	height: 30px;
+	font-size: 20px;
+	background-color: #545445;
+	position: absolute;apply this in child block whose postion we want to change.
+
+
+}
+
+.citizen2{
+	width: 70px;
+	height: 30px;
+	font-size: 20px;
+	background-color: #7f87b0;
+	position: absolute;apply this in child block whose postion we want to change.
+	right: 0;citizen2 will move towards right at 0px
+	top: 0;citizen2 will move towards top right at 0px 0px respectively.
+}
+
+.citizen3{
+	width: 70px;
+	height: 30px;
+	font-size: 20px;
+	background-color: #ceb0e8;
+	position: absolute;apply this in child block whose postion we want to change.
+	right: 0;
+	bottom: 0;
+}
+
+.citizen4{
+	width: 70px;
+	height: 30px;
+	font-size: 20px;
+	background-color: #42322e;
+	position: absolute;apply this in child block whose postion we want to change.
+	bottom: 0;
+}*/
+
+
+
+/*13.)Z index
+
+
+body{
+	font-family: 'Dancing Script', cursive;
+}
+
+.indiancitizen{
+	width: 500px;
+	height: 250px;
+	margin-top: 50px;
+	margin-left: 400px;
+	background-color: #91905a;
+	position: relative;
+}
+
+.citizen1{
+	width: 70px;
+	height: 30px;
+	font-size: 20px;
+	background-color: #545445;
+    position: absolute;
+
+}
+
+.citizen2{
+	width: 70px;
+	height: 30px;
+	font-size: 20px;
+	background-color: #7f87b0;
+	position: absolute;
+	z-index: 1;using this we are showing "citizen2" at top.Without it "puda" will appear at top.
+}
+
+.citizen3{
+	width: 70px;
+	height: 30px;
+	font-size: 20px;
+	background-color: #ceb0e8;
+	position: absolute;
+}
+
+.citizen4{
+	width: 70px;
+	height: 30px;
+	font-size: 20px;
+	background-color: #42322e;
+	position: absolute;
+}
+
+Imp note-We can see that we have used the "position" property in parent and child the reason is the property overlap all the 4 child.
+
+*/
+
+/*practice
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Dancing Script', cursive;
+	width: 100%;
+	height: 100vh;
+	background-image: url('tech3.jpg'); 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.back{
+	width: 100%;
+	height: 100px;
+	background-color: #282e38;
+}
+
+h1{
+	font-size: 50px;
+	background-color: #9053b5;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+
+.logo{
+     width: 30%;
+     height:100%;
+     background-color: #282e38;
+     text-align: center;
+     line-height: 100px;
+     font-size: 30px;
+     float: left;
+     position: relative;
+
+}
+
+.pagemenu{
+	width: 70%;
+	line-height:100px;
+	background-color: #282e38;
+	float: right;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+}
+
+img{
+	left: 80px;
+	top: 25px;
+}
+
+p{
+	display: inline;
+}
+
+.Home{
+	position: absolute;
+    right: 320px;
+    font-weight: 3px;
+    text-decoration: none;
+}
+
+.Login{
+	position: absolute;
+    right: 200px;
+    font-weight: 3px;
+}
+
+.Contactus{
+	position: absolute;
+	right: 40px;
+	font-weight: 3px;
+}
+
+
+p{
+	text-indent: 20px;
+	font-size: 25px;
+	position: absolute;
+}
+
+
+img{
+	position: absolute;
+	right: 50px;
+}
+*/
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	font-family: 'Indie Flower', cursive;
+	background-image: url('tech3.jpg');
+	width: 100%;
+	height: 100vh;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.welcomepage{
+	font-size: 50px;
+	text-align: center;
+	font-weight: bolder;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+
+.mainhead{
+	width: 100%;
+	height: 130px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mainhead .logo img{
+	width: 250px;
+	height: 70px;
+	padding: 30px;
+}
+
+.mainhead nav{
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.mainhead nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+    font-size: 20px;
+}
+
+.mainhead nav a:link{
+	color: black;
+}
+
+.mainhead nav a:visited{
+	color:#054c63;
+}
+
+.mainhead nav a:hover{
+	color:#cf984c;
+}
+
+
+.mainhead button{
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #ba9868;
+	border: none;
+	border-radius: 10px;
+}
+
+.contact{
+	margin-right: 20px;
+}
+
+main{
+	width: 100%;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.myintro{
+	font-size: 20px;
+	text-indent: 20px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	margin-left: 30px;
+	margin-bottom: 50px;
+	margin-right: 20px;
+	font-weight: bolder;
+}
+
+.myphoto{
+	margin-right: 80px;
+	margin-top: 10px;
+}
+
+.aboutus{
+	margin-left: 20px;
+	color: #ba9868;
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+.contact a{
+	text-decoration: none;
+}
+
+.contact a:link{
+	color: black;
+}
+
+.contact a:visited{
+	color: #054c63;
+}
+
+.contact a:hover{
+	color: #3d0514;
+}

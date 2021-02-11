@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	font-family: 'Indie Flower', cursive;
+	background-image: url('tech3.jpg');
+	width: 100%;
+	height: 100vh;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.services{
+	width: 100%
+	height:100vh;
+}
+
+.topsec{
+	text-align: center;
+	margin-top: 130px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	word-spacing: 1px;
+}
+
+.bottomsec{
+	margin-top: 40px;
+	margin-left: 350px;
+}
