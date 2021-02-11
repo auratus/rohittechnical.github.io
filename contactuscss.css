@@ -16,7 +16,7 @@ body{
 }
 
 h2{
-	text-align: center;
+	margin-left:450px;
 	font-weight: bolder;
 	margin-top: 50px;
 	letter-spacing: 2px;
@@ -30,7 +30,7 @@ h2{
 	border: solid;
 	border-radius: 30px;
 	border-color: #c79b5d;
-	margin-left: 360px;
+	margin-left: 300px;
 	margin-top: 50px;
     padding: 15px;
 }
