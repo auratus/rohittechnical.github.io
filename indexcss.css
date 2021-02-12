@@ -8,7 +8,7 @@ body{
 	font-family: 'Indie Flower', cursive;
 	background-image: url('tech3.jpg');
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
@@ -121,4 +121,11 @@ main{
 
 .contact a:hover{
 	color: #3d0514;
+}
+
+.homephoto{
+	width: 100%;
+	height:650px;
+	display: flex;
+	justify-content: center;
 }
