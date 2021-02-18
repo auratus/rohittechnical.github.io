@@ -14,12 +14,15 @@ body{
 }
 
 .welcomepage{
+	color: blue;
 	margin-top:10px;
 	font-size: 50px;
 	text-align: center;
 	font-weight: bolder;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 4px;
+	word-spacing: 3px;
+	text-shadow: 4px 4px 5px #f5f5f5;
 }
 
 
