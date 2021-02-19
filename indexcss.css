@@ -132,7 +132,7 @@ main{
 
 .dabba2 img{
 	position: absolute;
-	top: -90%;
+	top: -100%;
 	animation-name: girl;
 	animation-duration: 8s;
 	animation-timing-function: linear;
