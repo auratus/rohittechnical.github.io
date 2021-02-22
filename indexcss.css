@@ -23,7 +23,7 @@ body{
 	text-transform: uppercase;
 	letter-spacing: 4px;
 	word-spacing: 3px;
-	text-shadow: 4px 4px 5px grey;
+	text-shadow: 4px 4px 10px grey;
 	animation-name: chakkar;
 	animation-duration: 4s;
 	animation-timing-function: linear;
