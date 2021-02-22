@@ -1,17 +1,17 @@
 *{
 	margin: 0;
 	padding: 0;
-	background-image:linear-gradient(#d8ecf2,#e6c7f2);
-	width: 100%;
-	height: 100%;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+	
 }
 
 body{
 
 	font-family: 'Indie Flower', cursive;
-	
+	background-image:linear-gradient(#d8ecf2,#e6c7f2);
+	width: 100%;
+	height: 100vh;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 
 .welcomepage{
