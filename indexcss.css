@@ -181,6 +181,40 @@ main{
 	justify-content: center;
 }
 
+
+.wdwo{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	margin-top: 40px;
+}
+
+.wdwo h2{
+	font-size: 30px;
+	word-spacing:4px;
+	letter-spacing: 2px;
+	color: #483D8B;
+}
+
+.wdwo figure{
+    font-size: 45px;
+	animation-name: wheel;
+	color: #DC143C;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+
+@keyframes wheel{
+
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+
 .parentdemo{
 	width: 100%;
 	height: auto;
