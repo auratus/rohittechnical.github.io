@@ -180,3 +180,69 @@ main{
 	display: flex;
 	justify-content: center;
 }
+
+.parentdemo{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 5%;
+}
+
+.childdemo1{
+	width: 20%;
+	height: auto;
+	text-align: center;
+	box-shadow: 4px 4px 5px 3px grey;
+	transition-property: transform;
+	transition-duration: 0.5s;
+}
+
+
+.childdemo1:hover{
+	transform: translateY(-20px);
+}
+
+.childdemo1 h3{
+	color: purple;
+}
+
+.childdemo2{
+	width: 20%;
+	height: auto;
+	text-align: center;
+	box-shadow: 4px 4px 5px 3px grey;
+	transition-property: transform;
+	transition-duration: 0.5s;
+}
+
+.childdemo2:hover{
+	transform: translateY(-20px);
+}
+
+
+.childdemo2 h3{
+	color: purple;
+}
+
+.childdemo3{
+	width: 20%;
+	height: auto;
+	text-align: center;
+	box-shadow: 4px 4px 5px 3px grey;
+	transition-property: transform;
+	transition-duration: 0.4s;
+	
+}
+
+
+.childdemo3:hover{
+	transform: translateY(-20px);
+}
+
+
+
+.childdemo3 h3{
+	color: purple;
+}
