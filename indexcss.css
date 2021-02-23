@@ -189,7 +189,7 @@ main{
 	justify-content: center;
 	align-items: center;
 	box-sizing: border-box;
-	margin-top: 40px;
+	margin-top: 50px;
 }
 
 .wdwo h2{
@@ -222,6 +222,7 @@ main{
 	justify-content: space-around;
 	align-items: center;
 	margin-top: 5%;
+	margin-bottom:50px;
 }
 
 .childdemo1{
