@@ -296,6 +296,8 @@ main{
 	animation-timing-function:ease;
 	animation-iteration-count: infinite;
 	box-shadow: 3px 3px 5px 3px grey;
+        background-repeat:no-repeat;
+
 }
 
 @keyframes profile{
