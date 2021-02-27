@@ -289,7 +289,7 @@ main{
 	margin-bottom: 100px;
 	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('par1.png');
 	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('par2.png');
-	background-size: 100% 80%;
+	background-size: 100% 60%;
 	background-attachment: fixed;
 	animation-name: profile;
 	animation-duration: 9s;
