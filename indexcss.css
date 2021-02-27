@@ -289,7 +289,7 @@ main{
 	margin-bottom: 100px;
 	background-image:url('par1.png');
 	background-image:url('par2.png');
-	background-size: 100% 60%;
+	background-size: 100% 40%;
 	background-attachment: fixed;
 	animation-name: profile;
 	animation-duration: 9s;
