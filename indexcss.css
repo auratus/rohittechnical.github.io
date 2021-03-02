@@ -307,3 +307,14 @@ main{
 	75%{background-image:url('par2.png');}
 	100%{background-image:url('par1.png');}
 }
+
+
+.cright{
+
+	width: 100%;
+	height: 50px;
+	background-color: #BDB76B;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
