@@ -21,8 +21,6 @@ body{
 	text-align: center;
 	font-weight: bolder;
 	text-transform: uppercase;
-	letter-spacing: 4px;
-	word-spacing: 3px;
 	text-shadow: 4px 4px 10px grey;
 	animation-name: zoom;
 	animation-duration: 1s;
