@@ -24,17 +24,15 @@ body{
 	letter-spacing: 4px;
 	word-spacing: 3px;
 	text-shadow: 4px 4px 10px grey;
-	animation-name: chakkar;
-	animation-duration: 4s;
+	animation-name: zoom;
+	animation-duration: 1s;
 	animation-timing-function: linear;
-	animation-iteration-count: 2;
+	animation-iteration-count: 1;
 }
 
-@keyframes chakkar{
-	0%{margin-left: 0px;}
-	25%{margin-left: 5%;}
-	50%{margin-right: 5%;}
-	75%{margin-left: 5%;}
+@keyframes zoom{
+	0%{transform: scale(.5,.5);}
+	100%{transform: scale(1,1);}
 }
 
 .mainhead{
