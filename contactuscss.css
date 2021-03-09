@@ -16,14 +16,14 @@ body{
 }
 
               #back_button{
-		      background-color: #FF8C00;
+		     
 		      margin: 2vh 0 0 2vw;
 }
 
 		#back_button button{
 			border-style: none;
 			border-radius: 8px;		
-			
+			 background-color: #FF8C00;
 		}
 
 		#back_button button:hover{
@@ -32,7 +32,6 @@ body{
 
 		#back_button button p{
 			font-size: 2vw;
-			line-height: 0;
 		}
 
 h2{
