@@ -24,6 +24,7 @@ body{
 			border-style: none;
 			border-radius: 8px;		
 			 background-color: #FF8C00;
+			padding:3px;
 		}
 
 		#back_button button:hover{
