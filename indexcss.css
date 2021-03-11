@@ -111,6 +111,22 @@ main{
 	margin-top: 10px;
 }
 
+@media (max-width: 768px){
+			main{
+				display: block;
+			}
+			.myphoto{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+		}
+
+		#intro_sec{
+			width: 100%;
+			text-align: justify;
+		}
+
 .dabba{
 	width: 100%;
 	height: 70px;
