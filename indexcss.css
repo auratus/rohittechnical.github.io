@@ -33,6 +33,10 @@ body{
 	100%{transform: scale(1,1);}
 }
 
+#stick{
+position:sticky;
+}
+
 .mainhead{
 	width: 100%;
 	height: auto;
