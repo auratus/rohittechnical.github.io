@@ -121,6 +121,11 @@ main{
 				justify-content: center;
 				align-items: center;
 			}
+	
+	.myphoto img{
+	   width="33%";
+		height="auto";
+	}
 		}
 
 .dabba{
