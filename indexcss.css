@@ -126,6 +126,12 @@ main{
 	   width:33%;
 		height:auto;
 	}
+	
+	.parentdemo{
+				width: 100%;
+				height: auto;
+				display: block;
+			}
 		}
 
 .dabba{
