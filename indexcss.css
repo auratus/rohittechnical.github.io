@@ -34,8 +34,7 @@ body{
 }
 
 #stick{
-position:sticky;
-top:0;
+position:fixed;
 }
 
 .mainhead{
