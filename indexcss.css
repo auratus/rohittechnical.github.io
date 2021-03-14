@@ -259,13 +259,10 @@ main{
 	height: auto;
 	text-align: center;
 	box-shadow: 4px 4px 5px 3px grey;
+	border-radius:20px;
 	transition-property: transform;
 	transition-duration: 0.5s;
 }
-.childdemo1 img{
-	border-radius:20px;
-}
-
 
 .childdemo1:hover{
 	transform: translateY(-20px);
@@ -280,13 +277,10 @@ main{
 	height: auto;
 	text-align: center;
 	box-shadow: 4px 4px 5px 3px grey;
+	border-radius:20px;
 	transition-property: transform;
 	transition-duration: 0.5s;
 }
-.childdemo2 img{
-	border-radius:20px;
-}
-
 
 .childdemo2:hover{
 	transform: translateY(-20px);
@@ -302,6 +296,7 @@ main{
 	height: auto;
 	text-align: center;
 	box-shadow: 4px 4px 5px 3px grey;
+	border-radius:20px;
 	transition-property: transform;
 	transition-duration: 0.4s;
 	
