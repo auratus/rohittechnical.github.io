@@ -258,6 +258,9 @@ main{
 	transition-property: transform;
 	transition-duration: 0.5s;
 }
+.childdemo1 img{
+	border-radius:20px;
+}
 
 
 .childdemo1:hover{
@@ -276,6 +279,10 @@ main{
 	transition-property: transform;
 	transition-duration: 0.5s;
 }
+.childdemo2 img{
+	border-radius:20px;
+}
+
 
 .childdemo2:hover{
 	transform: translateY(-20px);
@@ -295,6 +302,11 @@ main{
 	transition-duration: 0.4s;
 	
 }
+
+.childdemo3 img{
+	border-radius:20px;
+}
+
 
 
 .childdemo3:hover{
