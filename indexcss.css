@@ -354,7 +354,6 @@ main{
 	width: 100%;
 	height: 100vh;
 	margin-top: 15px;
-	padding-top:10px;
 	background-image:url('par1.png');
 	background-image:url('par2.png');
 	background-size: 100% auto;
@@ -388,6 +387,7 @@ main{
 #dummy_text{
 margin:0;
 background-color:#FFFAF0;
+padding-top:10px;
 }
 
 #dummy_text p{
