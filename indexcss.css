@@ -200,6 +200,9 @@ main{
 	height:400px;
 }
 
+.homephoto img{
+	margin:auto 0;
+}
 
 .wdwo{
 	width: 100%;
