@@ -378,6 +378,12 @@ main{
 }
 
 
+@media (min-height: 1000px){
+	
+	.parweb{
+		height:40vh;
+	}
+}
 .cright{
 
 	width: 100%;
