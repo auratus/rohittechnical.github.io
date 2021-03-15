@@ -389,6 +389,11 @@ margin:0;
 background-color:#FFFAF0;
 }
 
+#dummy_text p{
+      color:#708090;
+	font-size:150%;
+
+}
 
 .cright{
 
