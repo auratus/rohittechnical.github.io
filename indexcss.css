@@ -362,6 +362,7 @@ main{
 	animation-name: profile;
 	animation-duration: 9s;
 	animation-timing-function:ease;
+	-moz-animation-timing-function:linear;
 	animation-iteration-count: infinite;
         background-repeat:no-repeat;
 	background-position: center;
