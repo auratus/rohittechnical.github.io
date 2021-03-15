@@ -253,6 +253,10 @@ main{
 				height: auto;
 				display: block;
 			}
+	
+	.wdwo h2{
+	font-size: 4vw;
+	}
 }
 
 .childdemo1{
