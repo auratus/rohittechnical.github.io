@@ -384,6 +384,13 @@ main{
 		height:40vh;
 	}
 }
+
+#dummy_text{
+background-image:url('dog_pic.jpg');
+background-size:100% 100%;
+}
+
+
 .cright{
 
 	width: 100%;
