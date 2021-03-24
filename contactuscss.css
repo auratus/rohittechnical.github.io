@@ -149,6 +149,11 @@ body{
 			#nav li {
 				display: none;
 			}
+			
+			#mobile_nav li{
+	margin: 55px 0;
+	padding: 20px 0;
+}
 		}
 
 		@media (min-width: 1081px){
