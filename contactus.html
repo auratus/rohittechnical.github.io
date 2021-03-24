@@ -9,6 +9,32 @@
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+	<header>
+   	<nav id="nav_bar">
+   		<div id="logo"><img src="logo.png"></div>
+   		<ul id="nav">
+   			<a href="index.html"><li><h3>HOME</h3></li></a>
+   			<a href="services.html"><li><h3>SERVICES</h3></li></a>
+   			<a href="contactus.html"><li><h3>CONTACT US</h3></li></a>
+   		</ul>
+   		<p id="threebars">&#x2630;</p>
+
+
+   	</nav>
+
+
+<div id="mobile">
+	<p id="cross">&#x274C;</p>
+   		<ul id="mobile_nav">
+   			<a href="index.html"><li><h3>HOME</h3></li></a>
+   			<a href="services.html"><li><h3>SERVICES</h3></li></a>
+   			<a href="contactus.html"><li><h3>CONTACT US</h3></li></a>
+   		</ul>
+   	</div>
+
+   </header>
+
+  
 	<div id="back_button">
     <button onclick="history.back()"><p>&#x21da; BACK</p></button>
     </div><br>
@@ -40,5 +66,23 @@
      	</section>
      	
      </main>
+	
+	 <script type="text/javascript">
+   	 function mobileview(){
+
+document.getElementById('mobile').style.display="flex";
+
+   	 }
+
+
+   	 function close(){
+   	 	document.getElementById('mobile').style.display="none";
+   	 }
+document.getElementById('threebars').addEventListener('click',mobileview);
+
+
+document.getElementById('cross').addEventListener('click',close);
+
+   </script>
 </body>
 </html>
