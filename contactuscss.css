@@ -154,6 +154,13 @@ body{
 	margin: 5vh 0;
 	padding: 3vh 0;
 }
+			
+			
+			#cross{
+	right: 2vw;
+	top: 1vh;
+	color: blue;
+}
 		}
 
 		@media (min-width: 1081px){
