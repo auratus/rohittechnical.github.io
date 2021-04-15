@@ -42,5 +42,23 @@
     		<img src="servicesphoto.png">
     	</section>
     </main>
+	
+	 <script type="text/javascript">
+   	 function mobileview(){
+
+document.getElementById('mobile').style.display="flex";
+
+   	 }
+
+
+   	 function close(){
+   	 	document.getElementById('mobile').style.display="none";
+   	 }
+document.getElementById('threebars').addEventListener('click',mobileview);
+
+
+document.getElementById('cross').addEventListener('click',close);
+
+   </script>
 </body>
 </html>
