@@ -319,3 +319,75 @@ body{
 	list-style: none;
 	color: grey;
 }
+
+@media (max-width: 1080px){
+
+	#main_footer{
+		height: auto;
+	}
+
+	#child_footer section{
+        width: 80%;
+        height: auto; 
+        padding: 3vh 0;   
+	}
+
+	#child_footer section li{
+		font-size: 150%;
+		padding: 15px 0;
+		line-height: 150%;
+	}
+
+	#child_footer{
+		padding: 3vh 0;
+	}
+
+	#child_footer section h3{
+		font-size: 150%;
+	}
+
+	#child_footer section p{
+		font-size: 150%;
+	}
+
+	#child_footer section h4{
+		font-size: 150%;
+	}
+
+	#mo_num{
+	font-size: 150%;
+}
+
+#e_id{
+	font-size: 150%;
+}
+
+     #foot_des p{
+       font-size: 150%;
+     }
+
+     #foot_end{
+     	height: 10vh;
+     	display: block;
+     }
+
+     #c_right{
+     	margin-top: 5.5vh;
+     	margin-bottom: 3vh;
+     }
+
+     #c_right p{
+
+     	text-align: center;
+     	font-size: 150%;
+     }
+
+     #add_links li{
+     	font-size: 150%;
+     }
+
+     #add_links{
+     	text-align: center;
+     }
+}
+
