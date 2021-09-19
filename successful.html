@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>submitted</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+	<style type="text/css">
+
+		*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #F0F8FF;
+}
+
+		
+#nav_bar{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			background-color: rgba(128,128,128,0.5);
+			width: 100%;
+			height: 100px;
+			flex-wrap: wrap;
+		}
+
+		#nav{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		#nav a{
+			text-decoration: none;
+		}
+
+		#nav li{
+			list-style: none;
+		}
+
+		#threebars{
+			font-size: 3vh;
+			color: blue;
+			
+		}
+
+		#nav h3{
+			color: #008B8B;
+		}
+
+		@media (max-width: 720px){
+
+			#nav_bar p{
+			font-size: 4vh;
+			
+		}
+
+		}
+
+		@media (max-width: 560px){
+
+			#nav_bar p{
+			font-size: 4.5vh;
+			
+		}
+
+		}
+
+
+
+		#nav_bar p:hover{
+			cursor: pointer;
+		}
+
+
+#mobile{
+	width: 100%;
+	height:50vh;
+	display: none;
+	background-color: grey;
+	box-sizing: border-box;
+	position: relative;
+	
+}
+
+#mobile_nav h3{
+	text-align: center;
+	
+}
+
+
+#mobile_nav a{
+	text-decoration: none;
+}
+#cross{
+	position: absolute;
+	right: 1.2vw;
+	top: 1.4vh;
+	color: blue;
+}
+#mobile_nav{
+	width: 100%;
+	display: block;
+
+
+}
+
+#mobile li{
+	list-style: none;
+	color: white;
+	margin: 35px 0;
+	padding: 10px 0;
+}
+
+
+#mobile li:hover{
+	background-color: #8FBC8F;
+}
+
+#cross{
+	font-size: 130%;
+
+}
+
+#cross:hover{
+	cursor: pointer;
+}
+
+#logo img{
+	width: 300px;
+	height: 100px;
+}
+
+
+@media (max-width: 720px){
+			#logo img{
+	width: 200px;
+	height: 50px;
+}
+}
+
+@media (max-width: 400px){
+			#logo img{
+	width: 150px;
+	height: 35px;
+}
+}
+
+
+		@media (max-width: 1080px){
+			#nav li {
+				display: none;
+			}
+			
+			#mobile_nav li{
+	margin: 5vh 0;
+	padding: 3vh 0;
+}
+			
+			
+			#cross{
+	right: 2vw;
+	top: 1vh;
+	color: blue;
+	font-size:200%;			
+}
+		}
+
+		@media (min-width: 1081px){
+			#nav_bar p{
+				display: none;
+			}
+
+			#nav li{
+				 margin: 0 1.5vw;
+			}
+		}
+
+                                 #_maincont{
+
+                                 	width: 100vw;
+                                 	height: 80vh;
+                                 	display: flex;
+                                 	justify-content: center;
+                                 	align-items: center;
+                                 }
+
+                                 #_childcont{
+
+                                 	width: 40%;
+                                 	height: 25%;
+                                 	display: flex;
+                                 	justify-content: space-around;
+                                 	align-items: center;
+                                 	flex-direction: column;
+                                 }
+
+                                 #_childcont h1{
+                                 	color: #1E90FF;
+                                 	font-weight: 900;
+                                 	font-size: 250%;
+                                 }
+
+                                 #_childcont h4{
+                                 	color:#4682B4;
+                                 	font-weight: 900;
+                                 }
+
+                                  @media(max-width: 1080px){
+                                       
+                                       #_childcont{
+                                       	width: 100%;
+                                       }
+
+                                       #_childcont h1{
+
+                                           font-size:350%;
+                                       }
+
+                                       #_childcont h4{
+                                           font-size:145%;
+                                       }
+
+                                 }
+
+
+#main_footer{
+			width: 100%;
+			height: 90vh;
+			background-color: #28282B;
+		}
+		#child_footer{
+			display: flex;
+			align-items: center;
+			justify-content:space-around;
+			padding: 10vh 0;
+			flex-wrap: wrap;
+			
+		}
+
+		#child_footer section{
+			width: 300px;
+			height: 40vh;
+		}
+
+		#child_footer section li{
+			list-style: none;
+			border-bottom: thin dashed grey;
+			padding: 8px 0;
+			color: grey;
+			font-size: 90%;
+			line-height: 140%;
+		}
+
+		#child_footer section h3{
+			color: white;
+			letter-spacing: 1px;
+		}
+
+		#child_footer section a{
+			text-decoration: none;
+		}
+
+#jbp1{
+	margin-left: 20px;
+}
+
+#jbp2{
+	margin-left: 20px;
+}
+
+#add{
+	color: white;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+
+#add_ress{
+	color:grey;
+	font-size: 90%;
+}
+
+#mo_num{
+	color: white;
+	font-size: 120%;
+}
+
+#e_id{
+	color: white;
+	font-size: 120%;
+}
+
+#foot_des p{
+	text-align: center;
+	color: grey;
+	font-size: 90%;
+	text-transform: uppercase;
+	border-bottom: 0.1px solid grey;
+	padding-bottom: 12px;
+}
+
+#call_num{
+	color:#87CEFA;
+}
+
+#send_mail{
+	color: #87CEFA;
+}
+
+#c_right p{
+ color: grey;
+}
+#hi_rt a{
+	color: #87CEFA;
+	text-decoration: none;
+}
+
+#hi_rt a:hover{
+	color: #00BFFF;
+}
+
+#foot_end{
+	width: 100%;
+	height:22vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#add_links li{
+	display: inline-block;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 7px;
+	padding-right: 7px;
+	font-size: 90%;
+	letter-spacing:0.1px;
+}
+
+#add_links a{
+	text-decoration: none;
+}
+
+#add_links li{
+	list-style: none;
+	color: grey;
+}
+
+@media (max-width: 1080px){
+
+	#main_footer{
+		height: auto;
+	}
+
+	#child_footer section{
+        width: 80%;
+        height: auto; 
+        padding: 3vh 0;   
+	}
+
+	#child_footer section li{
+		font-size: 150%;
+		padding: 15px 0;
+		line-height: 150%;
+	}
+
+	#child_footer{
+		padding: 3vh 0;
+	}
+
+	#child_footer section h3{
+		font-size: 150%;
+	}
+
+	#child_footer section p{
+		font-size: 150%;
+	}
+
+	#child_footer section h4{
+		font-size: 150%;
+	}
+
+	#mo_num{
+	font-size: 150%;
+}
+
+#e_id{
+	font-size: 150%;
+}
+
+     #foot_des p{
+       font-size: 150%;
+     }
+
+     #foot_end{
+     	height: 10vh;
+     	display: block;
+     }
+
+     #c_right{
+     	margin-top: 5.5vh;
+     	margin-bottom: 3vh;
+     }
+
+     #c_right p{
+
+     	text-align: center;
+     	font-size: 150%;
+     }
+
+     #add_links li{
+     	font-size: 150%;
+     }
+
+     #add_links{
+     	text-align: center;
+     }
+	
+	#jbp1{
+	margin-left:0;
+}
+
+#jbp2{
+	margin-left:0;
+}
+}
+	</style>
+</head>
+<body>
+	 <header>
+     <nav id="nav_bar">
+          <div id="logo"><img src="logo1.png"></div>
+          <ul id="nav">
+               <a href="index.html"><li><h3>HOME</h3></li></a>
+               <a href="services.html"><li><h3>SERVICES</h3></li></a>
+               <a href="contactus.html"><li><h3>CONTACT US</h3></li></a>
+               <a href="myprojects.html"><li><h3>PROJECTS</h3></li></a>
+          </ul>
+          <p id="threebars">&#x2630;</p>
+
+
+     </nav>
+
+
+<div id="mobile">
+     <p id="cross">&#x274C;</p>
+          <ul id="mobile_nav">
+               <a href="index.html"><li><h3>HOME</h3></li></a>
+               <a href="services.html"><li><h3>SERVICES</h3></li></a>
+               <a href="contactus.html"><li><h3>CONTACT US</h3></li></a>
+               <a href="myprojects.html"><li><h3>PROJECTS</h3></li></a>
+          </ul>
+     </div>
+
+   </header><br><br>
+
+
+   <main id="_maincont">
+   	
+         <section id="_childcont">
+         	<h1>REQUEST RECEIVED</h1>
+         	<h4>Only shortlisted candidates will be contacted.</h4>
+         </section>
+
+   </main>
+
+    <footer id="main_footer">
+<div id="child_footer">
+<section>
+        <h3>SERVICES</h3><br>
+        <ul>
+        <a href="#"><li>&#x274F;&nbsp;&nbsp;WEBSITE DESIGNING COMPANY IN <span id="jbp1">JABALPUR</span></li></a>
+        <a href="#"><li>&#x274F;&nbsp;&nbsp;WEBSITE DEVELOPMENT COMPANY IN <span id="jbp2">JABALPUR</span></li></a>
+        <a href="#"><li>&#x274F;&nbsp;&nbsp;MOBILE APP DEVELOPMENT</li>    </a>
+        <a href="#"><li>&#x274F;&nbsp;&nbsp;SEO</li></a>
+        </ul>
+</section>
+
+<section>
+     <h3>SOLUTIONS</h3><br>
+     <ul>
+     <a href="#"><li>&#x274F;&nbsp;&nbsp;ECOMMERCE WEBSITE</li>  </a>
+     <a href="#"><li>&#x274F;&nbsp;&nbsp;SOCIAL NETWORKING</li>  </a>
+     <a href="#"><li>&#x274F;&nbsp;&nbsp;DATING</li></a>
+     <a href="#"><li>&#x274F;&nbsp;&nbsp;CORPORATE APPLICATIONS</li></a>
+</ul>
+</section>
+
+<section id="con_tact">
+     <h3>CONTACT US :</h3><br>
+     <h4 id="add">&#128204;&nbsp;&nbsp;ADDRESS : </h4><br>
+     <p id="add_ress">401,ABC PLAZA,XYZ ROAD,JABALPUR,M.P,482001</p>
+     <br>
+     <a href="tel:9109274958"><p id="call_num"><span id="mo_num">&#128222;</span>&nbsp;&nbsp;9109274958</p></a>
+     <br>
+     <a href="mailto:rohitsahu721@yahoo.com"><p id="send_mail"><span id="e_id">&#128231;</span>&nbsp;&nbsp;rohitsahu721@yahoo.com</p></a>
+</section>
+
+</div>    
+
+<div id="foot_des">
+     
+          <p>Overall client rating is 5 out of 5 stars for Website Development Services in Jabalpur.</p>
+    
+</div>
+
+<div id="foot_end">
+     
+<section id="c_right">
+     <p>&#xA9; , <span id="hi_rt"><a href="index.html">ROHIT TECHNICAL</a></span> , ALL RIGHTS RESERVED</p>
+</section>
+
+<section>
+     <ul id="add_links">
+          <a href="#"><li>PRIVACY POLICY</li></a>
+          <a href="#"><li>PRICING POLICY</li></a>
+          <a href="#"><li>REFUND POLICY</li></a>
+          <a href="#"><li>TERMS & CONDITIONS</li></a>
+     </ul>
+</section>
+</div>
+</footer>
+
+     <script type="text/javascript">
+      function mobileview(){
+
+document.getElementById('mobile').style.display="flex";
+
+      }
+
+
+      function close(){
+          document.getElementById('mobile').style.display="none";
+      }
+document.getElementById('threebars').addEventListener('click',mobileview);
+
+
+document.getElementById('cross').addEventListener('click',close);
+
+   </script>
+
+</body>
+</html>
